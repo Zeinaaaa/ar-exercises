@@ -26,7 +26,7 @@ If you have an Apple M1 machine, please follow those instructions before complet
 
 ### Setup
 
-1. Create a new Postgres database. Use `psql postgres` to connect to the database server. Use `create database ar_exercises;` to create the database.
+1. Create a new Postgres database. Use `psql postgres` to connect to the database server. Use `` to create the database.
 2. Take a look at the `establish_connection` method call in `setup.rb`. This will allow Active Record to connect to *your* Postgres database. If you are using vagrant, you should not need to make any changes here.
 3. Run `bundle install` to install the gems.
 4. Run the first exercise file to make sure the database connection is working: `bundle exec ruby exercises/exercise_1.rb`. It should just output "Exercise 1" at the end, since you don't yet have any code in there.
